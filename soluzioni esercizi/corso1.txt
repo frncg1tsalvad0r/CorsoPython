@@ -1,0 +1,31 @@
+#esce dal programma
+quit()
+
+#import datetime 
+from datetime import datetime
+
+#ritorna la data corrente
+from datetime import datetime
+datetime.now() 
+
+#parametri passati alla funzione 
+import sys
+sys.argv[0] -- nome funzione
+sys.argv[1] -- primo parametro
+
+Q1. What does arange(5) do?
+1. Creates a Python list of 5 elements with values 1 to 5.
+2. Creates a Python list of 5 elements with values 0 to 4.
+3. Creates a NumPy array with values 1 to 5.
+4. Creates a NumPy array with values 0 to 4.
+5. None of the above.
+
+a = np.arange(10)
+a.dtype da il tipo di dato 
+
+
+Q1. How is the shape of an ndarray stored?
+1. It is stored in a comma-separated string.
+2. It is stored in a list.
+3. It is stored in a tuple.
+

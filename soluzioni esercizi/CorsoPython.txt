@@ -1,0 +1,201 @@
+
+# 00 Introduzione
+# Installazione di Python
+# Installazione di VSCode
+# Installazione dei plugin di VSCode
+# Creare il virtual environmento 
+# Si può usare il globale o quello locale
+# Perchè installare in locale è conveniente, perchè possiamo installare senza andare ad intaccare
+# l'ambiente globale e le librerie
+python -m venv nomeenvfolder (esempio mypythonenv) dico no perchè voglio selezionare 
+Venv da CTRL-P
+
+
+messaggio = input("Inserisici un dato")
+print(messaggio)
+#Commento
+if 1 < 5:
+	print(messaggio)
+	
+# 01 Variabili
+
+# 03 Variabili
+# - cos'è e come creare una variabile
+# - nomenclatura
+# - assegnazione multipla valori
+# - utilizzare una variabile
+
+x = 5
+y = 6
+
+personaNuova
+persona_nuova
+
+x = y = 5
+
+citta = ["Padova", "Verona"]
+
+# 04 Tipi di dato
+
+str: x = "ciao"
+int: x = 20
+float: x = 12.5
+bool: x = True
+list: x = ["Roma", "Napoli"]
+tuple: x = ("roma", "Milano", Napoli")
+range: x = range(6)
+dict: x = {"nome": "Luca", "cognome": "Martini"}
+set: x = {"nome", "cognome"}
+
+x = 5.5
+type(x) da il tipo 
+<class 'float'>
+
+#05 Casting
+int("5")
+float("5.6")
+
+
+#06 Stringhe
+# Come creare una stringa parlare di singoli apici o doppi apici
+# Mandare a schermo una stringa o variabile stringa
+# Stringhe multi riga '''multiriga'''
+# trattare le stringhe come degli array
+# prendere parte di una stringa s[:3] s[-5:-2]
+# len("stringa") ritorna 7 che è la lunghezza.
+# Creare una stringa sottostringa 
+# "Mario".upper(), lower, 
+# "123".isdigit() da True
+# "bas".isalpha() da True
+# "bas45".isalnum() da True 
+# "3987".isdecimal() da True
+# "12.5".isnumeric() da False (controlla se tutti i caratteri sono numerici)
+# strip, 
+# split, 
+# replace.
+# concatenare le Stringhe con  +
+#
+# usare format per combinare stringhe e numeri 
+# frase = "Ho {} anni e sono alto {} m" 
+# frase = "Ho {1} anni e sono alto {0} m"
+# frase.format(55, 1.75)
+# Ho 55 anni
+# escape dei caratteri ad esempio \"
+
+#07 Booleani 
+# i seguenti sono falsi
+# bool(False)
+# bool("")
+# bool(0)
+# bool([])
+# bool({})
+# bool(())
+
+#08 Operazioni aritmetiche
++ - * / // %**
+
+#09 Costrutti condizionali
+if condizione:
+	<blocco>
+if condizione:
+	<blocco>
+elif condizione:
+	<blocco>
+else:
+	<blocco>
+
+#10 Cicli while
+
+#11 For
+
+#12 Introduzione alla collezione di dati
+
+
+#13 List
+
+#14 Tuple
+
+#15 Set
+
+
+#16 Dictionary
+
+#17 Funzioni
+
+#18 classi e oggetti
+1. Spiegare cosa sono gli oggetti e cosa sono le classi di oggetti
+2. Come si costruiscono le classi di oggetti. Confronto tra arrray associativi molto simili nella struttura
+3. La prima semplice classe in Python
+
+class MyClass:
+  x = 5
+  
+p1 = MyClass()
+print(p1.x)
+
+4. Visibilità degli attributi. Usare doppio underscore
+5. Cancellazione
+del p1
+
+6.
+
+#19 ereditarietà
+
+#20 scope
+
+#21 moduli
+
+#22 Math
+
+#23 JSON
+
+#24 PIP
+
+#26 try except
+
+#27 input
+
+#28 formattazione
+
+#29 file.
+
+******************************************************
+******************************************************
+******************************************************
+******************************************************
+******************************************************
+BOOTCAMP
+******************************************************
+******************************************************
+******************************************************
+******************************************************
+******************************************************
+
+# Stampa a schermo
+print("Ciao Mondo!")
+
+Esercizio
+Stampare a schermo le seguenti stringhe
+1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.
+2. Knead the dough for 10 minutes.
+3. Add 3g of Salt.
+3. Add 3g of Salt.
+4. Leave to rise for 2 hours.
+5. Bake at 200 degrees C for 30 minutes.
+
+
+# Concatenazione di stringhe
+"stringa" + nome_variabile + "stringa"
+
+Esercizio 
+Concatenare più stringhe tra di loro
+
+Lacrimosa dies illa
+Qua resurget ex favilla
+Judicandus homo reus
+
+#Definizione di una variabile
+
+Esercizio
+anni = 25
+print("Maria ha " + str(anni) + " anni")
