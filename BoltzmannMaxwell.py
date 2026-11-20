@@ -23,6 +23,6 @@ for x in xs:
     y1s.append(maxwell(x))
 
 plt.grid()
-plt.plot(xs, y1s, label="dN/dv", linewidth="0.5")
+plt.plot(xs, y1s, label=r"$\Delta N/ \Delta v$", linewidth="0.5")
 plt.legend()
 plt.show()
